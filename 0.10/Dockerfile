@@ -5,6 +5,7 @@ FROM openshift/base-centos7
 
 MAINTAINER SoftwareCollections.org <sclorg@redhat.com>
 
+EXPOSE 5858
 EXPOSE 8080
 
 # Add $HOME/node_modules/.bin to the $PATH, allowing user to make npm scripts
